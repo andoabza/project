@@ -1,11 +1,19 @@
-* {
-margin: 0;
-padding: 0;
+@media (max-width: 360px) {
+.menu {
+  display: flex;
+  background: white;
+}
+.icon{
+  display: flex;
+}
 }
 
-.title {
-  color:wheat;
+media (min-width: 480px) {
+.menu {
+  display: flex;
+  background: white;
 }
-.main {
-  background-image: #fdd037;
+.icon{
+  display: flex;
+}
 }
